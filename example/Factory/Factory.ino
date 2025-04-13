@@ -117,7 +117,7 @@ void setup() {
   pinMode(TFT_LEDA_PIN, OUTPUT);
   // Initialise TFT
   tft.init();
-  tft.setRotation(1);
+  tft.setRotation(4);
   tft.fillScreen(TFT_DARKGREY);
   digitalWrite(TFT_LEDA_PIN, 0);
   tft.setTextFont(1);
